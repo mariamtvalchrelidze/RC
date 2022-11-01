@@ -2,7 +2,7 @@ workspace "Room Control" "This workspace documents the architecture of the Room 
 
     model {
         patient = person "Patient" "An user that has a room assigned and can control some of the room's equipments."
-        roomControl = softwareSystem "Room Control" "<Add two or three sentences about its purpose here (from the first consultation)>" {
+        roomControl = softwareSystem "Room Control" "The aim of Room Control module is to manage the rooms in the hospital" {
             ui = container "User interface" "The interface presented to users. It is a web application or a mobile application or a remote controller."
             api = container "API" "The API provides access to the rooms network. It does not need to be configured for any specific UI so any type of it can use the same API"
             communication = container "Communication" "This module is responsible for communication between patients and users" {
