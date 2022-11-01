@@ -5,7 +5,7 @@ workspace "Room Control" "This workspace documents the architecture of the Room 
         roomControl = softwareSystem "Room Control" "<Add two or three sentences about its purpose here (from the first consultation)>" {
             ui = container "User interface" "The interface presented to users. It is a web application or a mobile application or a remote controller."
             api = container "API" "The API provides access to the rooms network. It does not need to be configured for any specific UI so any type of it can use the same API"
-            communication = container "Communication" "<This module is responsible for communication between patients and users>" {
+            communication = container "Communication" "This module is responsible for communication between patients and users" {
                 notifications = component "Notifications" "The sub-module notifications aims to notify the nurse when they are needed."
                 nurseCall = component "Nurse Call" "The sub-module Nurse Call aims to allow patients to call a nurse."
             }
