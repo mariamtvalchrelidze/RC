@@ -6,7 +6,7 @@ workspace "Room Control" "This workspace documents the architecture of the Room 
             ui = container "User interface" "The interface presented to users. It is a web application or a mobile application or a remote controller."
             api = container "API" "<API description>"
             communication = container "Communication" "<description>"
-            people = container "People" "<I renamed this module from users to people because users seem to be a keyword in this thing>"
+            people = container "People" "This module is responsible for getting all the information about users, as well as assigning them to different rooms"
             cache = container "Cache" "<description>"
             login = container "User log-in" "<description>"
             equipInteraction = container "Equipment interaction" "Translate requests from the user interface to method calls, which read or write to equipments." {
@@ -25,7 +25,7 @@ workspace "Room Control" "This workspace documents the architecture of the Room 
                 windows = component "Windows control" "Methods that allow interactions with windows."
                 airCond = component "Air conditioning" "Methods that allow interactions with the air conditioner."
             }
-            rooms = container "Rooms" "<description>"
+            rooms = container "Rooms" "The module which allows the users to select a room which they want to access"
         }
     }
 
