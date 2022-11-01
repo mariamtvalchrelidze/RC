@@ -11,7 +11,7 @@ workspace "Room Control" "This workspace documents the architecture of the Room 
             }
             people = container "People" "This module is responsible for getting all the information about users, as well as assigning them to different rooms"
             cache = container "Cache" "Stores general information about the user so it can be easily accessed from anywhere in the application"
-            login = container "User log-in" "<description>"
+            login = container "Log in" "The aim of this module is to check user credentials and allow them to log into system>"
             equipInteraction = container "Equipment interaction" "Translate requests from the user interface to method calls, which read or write to equipments." {
                 bedGetter = component "Getter for beds" "Issue a read request to check the status the bed."
                 bedSetter = component "Setter for beds" "Issue a write request to change the bed state."
