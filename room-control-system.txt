@@ -4,10 +4,10 @@ workspace "Room Control" "This workspace documents the architecture of the Room 
         patient = person "Patient" "An user that has a room assigned and can control some of the room's equipments."
         roomControl = softwareSystem "Room Control" "<Add two or three sentences about its purpose here (from the first consultation)>" {
             ui = container "User interface" "The interface presented to users. It is a web application or a mobile application or a remote controller."
-            api = container "API" "<API description>"
+            api = container "API" "The API provides access to the rooms network. It does not need to be configured for any specific UI so any type of it can use the same API"
             communication = container "Communication" "<description>"
             people = container "People" "<I renamed this module from users to people because users seem to be a keyword in this thing>"
-            cache = container "Cache" "<description>"
+            cache = container "Cache" "Stores general information about the user so it can be easily accessed from anywhere in the application"
             login = container "User log-in" "<description>"
             equipInteraction = container "Equipment interaction" "Translate requests from the user interface to method calls, which read or write to equipments." {
                 bedGetter = component "Getter for beds" "Issue a read request to check the status the bed."
@@ -28,5 +28,4 @@ workspace "Room Control" "This workspace documents the architecture of the Room 
             rooms = container "Rooms" "<description>"
         }
     }
-
 }
