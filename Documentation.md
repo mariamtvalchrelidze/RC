@@ -9,15 +9,15 @@ By monitoring and controlling we mean:
 - opening and closing windows
 - calling a nurse 
 
-### Stakeholders 
+## Stakeholders 
 
 Patients, hospital staff and hospital management represent the stakeholders, since the system enables an easier operation of the hospital for patients as well as staff. Moreover, it minimizes cost of the development. 
 
-### Concerns 
+## Concerns 
 
 The application has to be easy to learn, since the staff training would be an additional cost. 
 
-### Containers
+## Containers
 The system consists of multiple containers. Some of which are part of the business logic. 
 
 
