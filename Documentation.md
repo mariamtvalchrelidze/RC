@@ -3,8 +3,8 @@
 The aim of this text is to provide the documentation regarding the architecture of room control system designed by Charles University Master’s students for the course Architecture of Software Engineering in winter 2022.
 
 ## Purporse
-The porpose of RC system is to allow users (patients as well as hospital staff) to monitor and control rooms in the hospital. 
-By monitoring and controlling we mean: 
+The purpose of the system is to modernize the hospital and make the patients' stay as comfortable as possible. At the same time, we want to give the hospital staff an easy way to monitor the rooms they are assigned to.
+For example, the functionalities of our system include, but are not limited to:
 - checking and setting room temperature
 - opening and closing windows
 - calling a nurse 
