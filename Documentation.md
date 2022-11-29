@@ -2,6 +2,8 @@
 
 The aim of this text is to provide the documentation regarding the architecture of room control system designed by Charles University Master’s students for the course Architecture of Software Engineering in winter 2022.
 
+## Purporse
+The porpose of RC system is to allow users (patients as well as hospital staff) to monitor and control rooms in the hospital. 
 The system consists of multiple containers. Some of which are part of the business logic. 
 
 ### Containers
