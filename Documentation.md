@@ -4,9 +4,22 @@ The aim of this text is to provide the documentation regarding the architecture 
 
 ## Purporse
 The porpose of RC system is to allow users (patients as well as hospital staff) to monitor and control rooms in the hospital. 
-The system consists of multiple containers. Some of which are part of the business logic. 
+By monitoring and controlling we mean: 
+- checking and setting room temperature
+- opening and closing windows
+- calling a nurse 
+
+### Stakeholders 
+
+Patients, hospital staff and hospital management represent the stakeholders, since the system enables an easier operation of the hospital for patients as well as staff. Moreover, it minimizes cost of the development. 
+
+### Concerns 
+
+The application has to be easy to learn, since the staff training would be an additional cost. 
 
 ### Containers
+The system consists of multiple containers. Some of which are part of the business logic. 
+
 
 - User Interface
 
