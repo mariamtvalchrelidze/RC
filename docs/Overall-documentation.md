@@ -20,7 +20,10 @@ The application has to be easy to learn, since the staff training would be an ad
 ## Containers
 The system consists of multiple containers. Some of which are part of the business logic. 
 
-https://static.structurizr.com/workspace/78797/diagrams/RoomControl-Container.png
+<iframe id="myEmbeddedDiagram" src="https://structurizr.com/embed/78797?diagram=RoomControl-SystemContext&diagramSelector=true&iframe=myEmbeddedDiagram" width="100%" marginwidth="0" marginheight="0" frameborder="0" scrolling="no" allowfullscreen="true"></iframe>
+
+<script type="text/javascript" src="https://static.structurizr.com/js/structurizr-embed.js"></script>
+
 - External modules  
      __Log-in__: we assume that when an user logs into the system, this module will provide a token that contains the identification of the user. This token will be passed along with each request to the API.  
      __Equipment database (EDB)__: the assignment states that we can assume there is a hospital wide database with all the equipment of the hospital in it.
