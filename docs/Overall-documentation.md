@@ -18,9 +18,18 @@ Patients, hospital staff and hospital management represent the stakeholders, sin
 The application has to be easy to learn, since the staff training would be an additional cost. 
 
 ## Containers
-The system consists of multiple containers. Some of which are part of the business logic. 
-Firstly, let us step back and see the big picture. Please refer to the System Context Diagram below: 
+Firstly, let us step back and see the big picture. Please refer to the System Context diagram below: 
+
 ![](https://static.structurizr.com/workspace/78797/diagrams/RoomControl-SystemContext.png)
+
+Now that the System Context diagram is already provided, Container diagram can be discussed. 
+The system consists of multiple containers. Some of which are part of the business logic. The modules - rooms, controller, unified equipment interface as well as notification form business logic. 
+
+Please refer to the container diagram below:
+
+![](https://static.structurizr.com/workspace/78797/diagrams/RoomControl-Container.png)
+
+The system consists of multiple containers. Some of which are part of the business logic. 
 
 - External modules  
      __Log-in__: we assume that when an user logs into the system, this module will provide a token that contains the identification of the user. This token will be passed along with each request to the API.  
